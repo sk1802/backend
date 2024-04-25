@@ -48,5 +48,5 @@ def index():
 
 
 def create_app():
-    app.run(debug=False,port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=False)
     return app
