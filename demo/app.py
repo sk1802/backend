@@ -45,5 +45,8 @@ def get_counts():
 @app.route('/')
 def index():
     return 'Hello, World!'
-if __name__ == '__main__':
+
+
+def create_app():
     app.run(debug=False)
+    return app

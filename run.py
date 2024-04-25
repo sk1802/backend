@@ -1,4 +1,4 @@
-from demo import app as create_app
+from demo import create_app
 
 app = create_app()
 
