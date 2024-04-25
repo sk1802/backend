@@ -41,5 +41,9 @@ def update_data():
 def get_counts():
     return jsonify({'message': 'Counts are not tracked in this version.'})
 
+
+@app.route('/')
+def index():
+    return 'Hello, World!'
 if __name__ == '__main__':
     app.run(debug=False)
