@@ -42,4 +42,4 @@ def get_counts():
     return jsonify({'message': 'Counts are not tracked in this version.'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
